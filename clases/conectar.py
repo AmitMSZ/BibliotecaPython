@@ -4,7 +4,7 @@ import mysql.connector
 class Conectar:
     def __init__(self) -> None:
         self.__db = mysql.connector.connect(
-            host="localhost", user="root", password="", database="yuumi-s.a"
+            host="localhost", user="root", password="", database="el_gran_poeta"
         )
 
         self.__cursor = self.__db.cursor()
